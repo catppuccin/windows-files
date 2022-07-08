@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/DakshG07/catppuccin-files/main/preview.png"/>
+	<img src="https://raw.githubusercontent.com/DakshG07/catppuccin-files/main/preview.jpg"/>
 </p>
 
 ## Usage
@@ -20,7 +20,7 @@
 1. Clone this repository locally
 2. Open the app's settings
 3. Go to custom themes, hit the `i` icon, and select open theme folder.
-4. Copy the `Catpuccin.xaml` file into the folder.
+4. Copy the `Catpuccin.xaml` flavour of choice into the folder. **Latte theme can be enabled in all flavour files by turning on light mode.**
 5. Restart Files and select the theme in the settings.
 
 ## 🙋 FAQ (optional)
