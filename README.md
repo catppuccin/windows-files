@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/catppuccin/files/main/preview.jpg"/>
+	<img src="https://raw.githubusercontent.com/catppuccin/files/main/assets/preview.jpg"/>
 </p>
 
 ## Usage
