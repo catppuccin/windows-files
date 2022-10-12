@@ -23,7 +23,7 @@
 4. Copy the `Catpuccin.xaml` flavour of choice into the folder. **Latte theme can be enabled in all flavour files by turning on light mode.**
 5. Restart Files and select the theme in the settings.
 
-## 🙋 FAQ (optional)
+## 🙋 FAQ
 
 -	Q: **_"Where can I find the theme folder?"_**
 	A: Open Settings>Appearance>Custom Themes. You'll see an `i` icon. Click it and open the themes folder.
@@ -31,6 +31,7 @@
 ## 💝 Thanks to
 
 - [DakshG07 (Dukk)](https://github.com/DakshG07)
+- [justTOBBI](https://github.com/justTOBBI)
 
 &nbsp;
 
