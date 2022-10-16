@@ -44,7 +44,7 @@
 
 ## 🙋 FAQ
 
--	Q: **_"Where can I find the theme folder?"_**
+-	Q: **_"Where can I find the theme folder?"_** <br>
 	A: Open Settings>Appearance>Custom Themes. You'll see an `i` icon. Click it and open the themes folder.
 
 ## 💝 Thanks to
