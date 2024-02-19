@@ -1,0 +1,6 @@
+{
+  "AppThemeBackgroundColor": "#ff{{base}}",
+  "AppThemeAddressBarBackgroundColor": "#ff{{mantle}}",
+  "AppThemeSidebarBackgroundColor": "#ff{{mantle}}",
+  "AppThemeFileAreaBackgroundColor": "#ff{{crust}}"
+}
