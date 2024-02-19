@@ -36,16 +36,10 @@
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Go to custom themes, hit the `i` icon, and select open theme folder.
-4. Copy the `Catpuccin.xaml` flavour of choice into the folder. **Latte theme can be enabled in all flavour files by turning on light mode.**
-5. Restart Files and select the theme in the settings.
-
-## 🙋 FAQ
-
--	Q: **_"Where can I find the theme folder?"_** <br>
-	A: Open Settings>Appearance>Custom Themes. You'll see an `i` icon. Click it and open the themes folder.
+1. Open Files > Settings > Advanced > Edit settings file.
+2. Copy your chosen flavor from the [themes/](./themes) directory into the
+   settings file.
+3. Restart and select the theme in the settings.
 
 ## 💝 Thanks to
 
