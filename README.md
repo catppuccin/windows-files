@@ -12,40 +12,38 @@
 </p>
 
 <p align="center">
-	<img src="assets/windows-files-preview.webp"/>
+	<img src="assets/preview.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="assets/files-latte.webp"/>
+<img src="assets/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="assets/files-frappe.webp"/>
+<img src="assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="assets/files-macchiato.webp"/>
+<img src="assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="assets/files-mocha.webp"/>
+<img src="assets/mocha.webp"/>
 </details>
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Go to custom themes, hit the `i` icon, and select open theme folder.
-4. Copy the `Catpuccin.xaml` flavour of choice into the folder. **Latte theme can be enabled in all flavour files by turning on light mode.**
-5. Restart Files and select the theme in the settings.
+1. Run the `./install.ps1` script, either by downloading it manually, or in a single command:
 
-## 🙋 FAQ
+```ps1
+. { Invoke-WebRequest -UseBasicParsing https://github.com/catppuccin/windows-files/raw/main/install.ps1 } | iex
+```
 
--	Q: **_"Where can I find the theme folder?"_** <br>
-	A: Open Settings>Appearance>Custom Themes. You'll see an `i` icon. Click it and open the themes folder.
+2. Choose your preferred options in the install script.
+3. Start Files, navigate to Settings > Appearance, and select **Light** or **Dark** as the base theme, depending on your chosen flavor. This step can't be automated at the moment.
 
 ## 💝 Thanks to
 
