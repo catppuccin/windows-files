@@ -60,12 +60,12 @@ function Update-Config {
 $possiblePackageNames = @(
     # dev
     "FilesDev_ykqwq8d6ps0ag",
-    # classic
-    "Files_wvne1zexy08sa",
-    # classic preview
+    # Sideload
+    "Files_1y0xx7n9077q4",
+    # Sideload Preview
     "FilesPreview_1y0xx7n9077q4",
     # Microsoft Store
-    "FilesUWP_et10x9a9vyk8t"
+    "49306atecsolution.FilesUWP_et10x9a9vyk8t"
 )
 
 $locatedPaths = @()
