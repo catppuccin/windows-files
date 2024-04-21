@@ -58,8 +58,10 @@ function Update-Config {
 
 # from https://files.community/docs/contributing/updates
 $possiblePackageNames = @(
-    # dev
+    # Dev
     "FilesDev_ykqwq8d6ps0ag",
+    # Classic
+    "Files_wvne1zexy08sa",
     # Sideload
     "Files_1y0xx7n9077q4",
     # Sideload Preview
