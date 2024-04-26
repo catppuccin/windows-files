@@ -38,9 +38,13 @@
 
 1. Run the `./install.ps1` script, either by downloading it manually, or in a single command:
 
-```ps1
-. { Invoke-WebRequest -UseBasicParsing https://github.com/catppuccin/windows-files/raw/main/install.ps1 } | iex
-```
+   ```ps1
+   . { Invoke-WebRequest -UseBasicParsing https://github.com/catppuccin/windows-files/raw/main/install.ps1 } | iex
+   ```
+
+> [!IMPORTANT]
+> The install script requires PowerShell 6.0 or above. To update your
+> powershell, see "[Installing PowerShell 7 - Microsoft](https://learn.microsoft.com/en-us/powershell/scripting/whats-new/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7.4#installing-powershell-7)."
 
 2. Choose your preferred options in the install script.
 3. Start Files, navigate to Settings > Appearance, and select **Light** or **Dark** as the base theme, depending on your chosen flavor. This step can't be automated at the moment.
