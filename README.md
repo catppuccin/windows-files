@@ -36,6 +36,8 @@
 
 ## Usage
 
+1. Download the 3rd party [Files](https://files.community/download) application.
+
 1. Run the `./install.ps1` script, either by downloading it manually, or in a single command:
 
    ```ps1
