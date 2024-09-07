@@ -1,3 +1,4 @@
+
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
@@ -7,12 +8,12 @@ $palette = [ordered]@{
         "mantle" = "#e6e9ef"
         "crust"  = "#dce0e8"
     }
-    "frappe"    = @{
+    "frappe"     = @{
         "base"   = "#303446"
         "mantle" = "#292c3c"
         "crust"  = "#232634"
     }
-    "macchiato" = @{
+    "macchiato"     = @{
         "base"   = "#24273a"
         "mantle" = "#1e2030"
         "crust"  = "#181926"
@@ -22,6 +23,7 @@ $palette = [ordered]@{
         "mantle" = "#181825"
         "crust"  = "#11111b"
     }
+    
 }
 
 $flavorChoices = @()
