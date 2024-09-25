@@ -3,7 +3,6 @@ whiskers:
     version: "2.5.0"
     filename: "install.ps1"
 ---
-
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
