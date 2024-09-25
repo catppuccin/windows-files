@@ -1,26 +1,20 @@
+---
+whiskers:
+    version: "2.5.0"
+    filename: "install.ps1"
+---
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
 $palette = [ordered]@{
-    "latte" = @{
-        "base"   = "#eff1f5"
-        "mantle" = "#e6e9ef"
-        "crust"  = "#dce0e8"
-    }
-    "frappe" = @{
-        "base"   = "#303446"
-        "mantle" = "#292c3c"
-        "crust"  = "#232634"
-    }
-    "macchiato" = @{
-        "base"   = "#24273a"
-        "mantle" = "#1e2030"
-        "crust"  = "#181926"
-    }
-    "mocha" = @{
-        "base"   = "#1e1e2e"
-        "mantle" = "#181825"
-        "crust"  = "#11111b"
+    {% for _, flavor in flavors -%}
+    "{{flavor.identifier}}" = @{
+        "base"   = "#{{flavor.colors.base.hex}}"
+        "mantle" = "#{{flavor.colors.mantle.hex}}"
+        "crust"  = "#{{flavor.colors.crust.hex}}"
+    {%- if not loop.last %}
+    }{% endif %}
+    {% endfor -%}
     }
 }
 
