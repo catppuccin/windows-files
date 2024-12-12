@@ -45,7 +45,7 @@
    ```
 
 > [!IMPORTANT]
-> The install script requires PowerShell 6.0 or above. To update your
+> The install script requires PowerShell 7.0 or above. To update your
 > powershell, see "[Installing PowerShell 7 - Microsoft](https://learn.microsoft.com/en-us/powershell/scripting/whats-new/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7.4#installing-powershell-7)."
 
 3. Choose your preferred options in the install script.
