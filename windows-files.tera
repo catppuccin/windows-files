@@ -61,7 +61,9 @@ $possiblePackageNames = @(
     # Sideload Preview
     "FilesPreview_1y0xx7n9077q4",
     # Microsoft Store
-    "49306atecsolution.FilesUWP_et10x9a9vyk8t"
+    "49306atecsolution.FilesUWP_et10x9a9vyk8t",
+    # Microsoft Store Preview
+    "49306atecsolution.FilesPreview_et10x9a9vyk8t"
 )
 
 $locatedPaths = @()
