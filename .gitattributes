@@ -1,2 +1,2 @@
 *.ps1 text eol=crlf
-windows-files.tera text eol=crlf
+*.tera text eol=crlf
